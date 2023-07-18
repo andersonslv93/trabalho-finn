@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2CB3F3;
+    text-align: center;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+section{
+    background-color: white;
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.rosto{
+    background-color: #ffe1c9;
+    width: 60%;
+    height: 60vh;
+    border-radius: 100%;
+}
+
+.olho1 {
+    width: 5vw;
+    position: relative;
+}
+
+.olho2 {
+    width: 5vw;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+form{
+    position: relative;
+    top: 60px;
+    margin-left: 280px;
+    margin-top: 100px;
+    width: 900px;
+}
+
+input{
+    display: block;
+    text-align: center;
+}
